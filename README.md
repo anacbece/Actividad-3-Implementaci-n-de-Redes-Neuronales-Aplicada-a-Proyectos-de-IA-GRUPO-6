@@ -1,6 +1,6 @@
-#Actividad 3: Implementación de Redes Neuronales Aplicada a Proyecto Final
+# Actividad 3: Implementación de Redes Neuronales Aplicada a Proyecto Final
 
-Descripción General
+# Descripción General
 Esta actividad implementa redes neuronales desde cero usando NumPy, demostrando comprensión profunda de:
 
 *Propagación hacia adelante (forward)
@@ -11,7 +11,7 @@ Esta actividad implementa redes neuronales desde cero usando NumPy, demostrando 
 *Predicción para un caso aplicado al Proyecto Final: modelo simple de recomendación (Neural Matrix Factorization – MF)
 *Adicionalmente, se realizan experimentos comparativos entre tres arquitecturas neurales y un modelo baseline lineal, evaluando su rendimiento mediante RMSE.
 
-Contenido del Proyecto
+# Contenido del Proyecto
 El script contiene 4 partes principales:
 
 Parte 1 — Red Neuronal desde Cero (NumPy)
@@ -29,17 +29,17 @@ Backpropagation manual
 Actualización de pesos con gradiente descendente
 
 Componentes Implementados
-Pesos y bias con NumPy	✔
-Propagación hacia adelante	✔
-Regla delta (backprop)	✔
-Derivadas de activaciones	✔
-Cálculo de loss MSE	✔
-Desacoplamiento modular	✔
+Pesos y bias con NumPy	
+Propagación hacia adelante	
+Regla delta (backprop)	
+Derivadas de activaciones	
+Cálculo de loss MSE	
+Desacoplamiento modular	
 
 Parte 2 — Aplicación al Proyecto Final (Sistema de Recomendación)
 Se implementa una versión simplificada de:
 
-✔ Neural Matrix Factorization (NumPy)
+Neural Matrix Factorization (NumPy)
 
 Embeddings de usuario e ítem
 
@@ -47,7 +47,7 @@ Capa MLP opcional
 
 Predicción de ratings entre 1–5
 
-✔ Datos utilizados
+Datos utilizados
 
 Si no se encuentra ratings.csv en MovieLens:
 
